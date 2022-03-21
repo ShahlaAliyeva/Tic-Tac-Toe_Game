@@ -39,6 +39,7 @@ body {
 .container p {
     font-weight: bold;
     color: rgb(0, 8, 56);
+    margin-top: .7em;
 }
 
 p#userChoice, #firstScore{
