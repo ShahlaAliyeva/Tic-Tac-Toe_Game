@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="./assets/js/index.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>TickToe game</title>
+</head>
+
+<body>
+    <div class="container">
+        <p id="userChoice">First user: X</p>
+        <p id="secondUserChoice">Second user: O</p>
+        <p>Score: 
+                  <span id="firstScore">0</span>
+                  <span id="secondScore">0</span>
+        </p>
+        <div class="board">
+            <div id="middleColumn" class="column borderBottomColumn first" data-column="1"></div>
+            <div id="middleColumn" class="column borderBottomColumn second" data-column="2"></div>
+            <div class="column borderBottomColumn third" data-column="3"></div>
+            <div id="middleColumn" class="column borderBottomColumn forth" data-column="4"></div>
+            <div id="middleColumn" class="column borderBottomColumn" data-column="5"></div>
+            <div class="column borderBottomColumn" data-column="6"></div>
+            <div id="middleColumn" class="column" data-column="7"></div>
+            <div id="middleColumn" class="column" data-column="8"></div>
+            <div class="column" data-column="9"></div>
+        </div>
+    </div>
+</body>
+
+</html>
